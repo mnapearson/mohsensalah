@@ -2,31 +2,25 @@
   <div class="home">
     <div>
       <div class="text">
-        <h2>welcome</h2>
+        <h2>wilkkomen bei project koerper therapie</h2>
         <h1>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum amet
           magnam iusto quia, ex dolores, commodi eveniet sed repellendus natus
           quibusdam voluptatibus laboriosam voluptates quis doloribus
-          consequuntur. Alias, sint. Sunt velit similique, fuga est praesentium
-          maxime! Eius consequatur, distinctio fuga doloremque praesentium sed
-          quas. Beatae magni molestiae numquam. Veritatis consequuntur
-          voluptatum earum ut eius quod reiciendis impedit veniam odio.
+          consequuntur. Alias, sint. Eius consequatur, distinctio fuga
+          doloremque praesentium sed quas. Beatae magni molestiae numquam.
+          Veritatis consequuntur voluptatum earum ut eius quod reiciendis
+          impedit veniam odio.
         </h1>
         <h1>
           Iste fuga quaerat accusantium et! Molestias deserunt, commodi velit
-          neque sed odit porro. Dicta amet quas vitae necessitatibus voluptate
-          veniam error maxime perspiciatis incidunt at fuga vero aliquid placeat
-          qui deleniti est et rerum odit porro, aut sapiente. Sapiente labore
-          vitae officia asperiores praesentium. Nemo quos nulla fuga laudantium
-          optio, accusantium eveniet commodi earum ducimus, reprehenderit
-          impedit beatae explicabo sed architecto at exercitationem iusto
-          libero!
+          neque sed odit porro. Nesciunt sapiente nihil soluta, laudantium
+          temporibus dignissimos possimus!
         </h1>
         <h1>
-          Nesciunt sapiente nihil soluta, laudantium temporibus dignissimos
-          possimus! Aspernatur quidem vel, necessitatibus porro consectetur
-          dolorum vitae voluptas repellendus, cumque consequuntur facilis,
-          aperiam praesentium blanditiis omnis quaerat?
+          Aspernatur quidem vel, necessitatibus porro consectetur dolorum vitae
+          voluptas repellendus, cumque consequuntur facilis, aperiam praesentium
+          blanditiis omnis quaerat?
         </h1>
         <router-link class="learn-more" to="/services">learn more</router-link>
       </div>
