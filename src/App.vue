@@ -49,41 +49,23 @@
   height: 100vh;
   font-family: "Fjalla One", sans-serif;
   text-align: center;
-  -webkit-animation: swing-in-left-bck 1s
-    cubic-bezier(0.175, 0.885, 0.32, 1.275) 3s both;
-  animation: swing-in-left-bck 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 3s
-    both;
+  -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
 }
 
-@-webkit-keyframes swing-in-left-bck {
+@-webkit-keyframes fade-in {
   0% {
-    -webkit-transform: rotateY(-70deg);
-    transform: rotateY(-70deg);
-    -webkit-transform-origin: left;
-    transform-origin: left;
     opacity: 0;
   }
   100% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-    -webkit-transform-origin: left;
-    transform-origin: left;
     opacity: 1;
   }
 }
-@keyframes swing-in-left-bck {
+@keyframes fade-in {
   0% {
-    -webkit-transform: rotateY(-70deg);
-    transform: rotateY(-70deg);
-    -webkit-transform-origin: left;
-    transform-origin: left;
     opacity: 0;
   }
   100% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-    -webkit-transform-origin: left;
-    transform-origin: left;
     opacity: 1;
   }
 }

@@ -30,7 +30,7 @@
       <img class="image-2" src="../assets/mologogray.jpg" alt="" />
       <img class="image-3" src="../assets/mologogreen.jpg" alt="" />
     </div>
-    <!-- <div class="logo"><img src="../assets/mohsenlogo.png" alt="" /></div> -->
+    <div class="logo"><img src="../assets/mohsenlogo.png" alt="" /></div>
   </div>
 </template>
 
@@ -80,6 +80,28 @@ h2 {
 
 h1 {
   margin-bottom: 2rem;
+}
+
+.image {
+  -webkit-animation: fade-out 1s ease-out 1.8s both;
+  animation: fade-out 1s ease-out 1.8s both;
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .image-1 {
@@ -150,5 +172,35 @@ h1 {
   font-size: 16px;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.logo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  -webkit-animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 2.5s both;
+  animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 2.5s both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo img {
+  height: 100vh;
+  width: auto;
 }
 </style>
