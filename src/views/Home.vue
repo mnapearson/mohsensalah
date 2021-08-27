@@ -107,19 +107,19 @@ h1 {
 .image-1 {
   position: fixed;
   top: 5%;
-  right: 10%;
+  right: 15%;
 }
 
 .image-2 {
   position: fixed;
   top: 35%;
-  right: 20%;
+  right: 15%;
 }
 
 .image-3 {
   position: fixed;
   top: 65%;
-  right: 30%;
+  right: 15%;
 }
 
 .image img {
@@ -127,20 +127,21 @@ h1 {
 }
 
 .image-1 {
-  -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .image-2 {
-  -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s
-    both;
-  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+  -webkit-animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    0.5s both;
+  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
 }
 
 .image-3 {
-  -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
+  -webkit-animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
     both;
-  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
+  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
 }
 
 @-webkit-keyframes slide-in-left {
@@ -178,8 +179,8 @@ h1 {
   position: fixed;
   top: 0;
   right: 0;
-  -webkit-animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 2.5s both;
-  animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 2.5s both;
+  -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 3s both;
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 3s both;
 }
 
 @-webkit-keyframes fade-in {

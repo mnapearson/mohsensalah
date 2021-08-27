@@ -17,6 +17,19 @@
           </h1>
         </div>
       </div>
+      <div class="service-two">
+        <div class="service-two-text">
+          <h2>service two</h2>
+          <h1>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt,
+            minus delectus! Recusandae deleniti nulla, et dolores eaque magnam
+            repellat odio.
+          </h1>
+        </div>
+        <div class="service-two-image">
+          <img src="../assets/servicetwo.png" alt="" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -26,7 +39,13 @@
   -webkit-animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
   animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
   z-index: 2;
+  display: flex;
   position: fixed;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 @-webkit-keyframes fade-in {
@@ -55,15 +74,23 @@
 
 .service-one {
   z-index: 2;
-  position: fixed;
   display: flex;
   align-items: center;
-  top: 10%;
-  left: 20%;
+}
+
+.service-two {
+  z-index: 2;
+  display: flex;
+  align-items: center;
 }
 
 .service-one-text {
-  width: 40%;
+  width: 400px;
+  margin: 3rem;
+}
+
+.service-two-text {
+  width: 275px;
   margin: 3rem;
 }
 
@@ -75,10 +102,15 @@ h1 {
 
 h2 {
   font-family: "Fjalla One", sans-serif;
+  margin-bottom: 1rem;
 }
 
 .service-one img {
   height: 400px;
+}
+
+.service-two img {
+  height: 300px;
 }
 
 @-webkit-keyframes slide-in-right {
