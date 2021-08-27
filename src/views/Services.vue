@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="logo-image">
-      <img src="../assets/mologoblack.jpg" alt="" />
+      <img src="../assets/mologogray.jpg" alt="" />
     </div>
     <div class="services">
       <div class="service-one">
@@ -42,7 +42,7 @@
   display: flex;
   position: fixed;
   flex-direction: column;
-  align-items: center;
+  margin-left: 4rem;
   justify-content: center;
   width: 100%;
   height: 100%;
@@ -63,13 +63,6 @@
   100% {
     opacity: 1;
   }
-}
-
-.logo-image {
-  position: fixed;
-  z-index: 1;
-  -webkit-animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .service-one {
@@ -115,10 +108,18 @@ h2 {
   height: 300px;
 }
 
-@-webkit-keyframes slide-in-right {
+.logo-image {
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-in-left {
   0% {
-    -webkit-transform: translateX(1000px);
-    transform: translateX(1000px);
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
     opacity: 0;
   }
   100% {
@@ -127,10 +128,10 @@ h2 {
     opacity: 1;
   }
 }
-@keyframes slide-in-right {
+@keyframes slide-in-left {
   0% {
-    -webkit-transform: translateX(1000px);
-    transform: translateX(1000px);
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
     opacity: 0;
   }
   100% {
@@ -141,8 +142,13 @@ h2 {
 }
 
 .logo-image img {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  height: 100vh;
+  opacity: 50%;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.logo-image img {
   height: 100vh;
   opacity: 50%;
   filter: blur(5px);

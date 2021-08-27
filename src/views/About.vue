@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="logo-image">
-      <img src="../assets/mologogray.jpg" alt="" />
+      <img src="../assets/mologogreen.jpg" alt="" />
     </div>
     <div class="about">
       <div class="about-image">
@@ -82,8 +82,8 @@
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: center;
   align-items: center;
+  margin-left: 4rem;
 }
 
 @-webkit-keyframes fade-in {
@@ -109,7 +109,7 @@
 
 .about-text {
   width: 500px;
-  margin: 3rem;
+  margin-left: 3rem;
 }
 
 h1 {
