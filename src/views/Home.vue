@@ -2,7 +2,7 @@
   <div class="home">
     <div>
       <div class="text">
-        <h2>wilkkomen bei project koerper therapie</h2>
+        <h2>wilkkomen bei projekt koerper therapie</h2>
         <h1>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum amet
           magnam iusto quia, ex dolores, commodi eveniet sed repellendus natus
