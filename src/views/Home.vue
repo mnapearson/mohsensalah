@@ -45,6 +45,8 @@
 
 h2 {
   font-family: "Fjalla One", sans-serif;
+  margin-bottom: 1rem;
+  font-size: 16px;
 }
 
 .text {

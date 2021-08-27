@@ -82,6 +82,7 @@
   z-index: 2;
   display: flex;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .service-one-text {
@@ -90,7 +91,7 @@
 }
 
 .service-two-text {
-  width: 275px;
+  width: 300px;
   margin: 3rem;
 }
 
@@ -103,6 +104,7 @@ h1 {
 h2 {
   font-family: "Fjalla One", sans-serif;
   margin-bottom: 1rem;
+  font-size: 16px;
 }
 
 .service-one img {
