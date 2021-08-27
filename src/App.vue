@@ -117,10 +117,11 @@ a {
 .privacy-links {
   display: flex;
   flex-direction: column;
+  line-height: 0;
 }
 
 .copyright-text {
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
 </style>
