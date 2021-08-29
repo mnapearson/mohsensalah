@@ -69,7 +69,6 @@
 
 .logo-image img {
   height: 100vh;
-
   filter: blur(5px);
   -webkit-filter: blur(5px);
 }
