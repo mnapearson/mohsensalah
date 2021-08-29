@@ -51,7 +51,7 @@
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    opacity: 1;
+    opacity: 50;
   }
 }
 @keyframes slide-in-left {
@@ -63,7 +63,7 @@
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    opacity: 1;
+    opacity: 50;
   }
 }
 

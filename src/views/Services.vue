@@ -124,7 +124,7 @@ h2 {
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    opacity: 1;
+    opacity: 50;
   }
 }
 @keyframes slide-in-left {
@@ -136,12 +136,14 @@ h2 {
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    opacity: 1;
+    opacity: 50;
   }
 }
 
 .logo-image img {
   height: 100vh;
   opacity: 50%;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 </style>

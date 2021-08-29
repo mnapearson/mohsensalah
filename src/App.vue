@@ -2,7 +2,9 @@
   <div id="app">
     <div id="nav">
       <div class="nav-image">
-        <img src="./assets/mohsenlogo.png" alt="" />
+        <router-link to="/">
+          <img src="./assets/mohsenlogo.png" alt=""
+        /></router-link>
       </div>
       <div class="nav-links" routerLinkActive="active_route">
         <router-link class="nav-link" to="/">Startseite</router-link>
@@ -44,7 +46,7 @@
 #nav {
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 125px;
   border-right: 1px solid lightgray;
   height: 100vh;
   font-family: "Fjalla One", sans-serif;
@@ -71,7 +73,7 @@
 }
 
 #nav img {
-  width: 150px;
+  width: 125px;
   border-bottom: 1px solid lightgray;
 }
 
@@ -87,7 +89,7 @@
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .nav-link:hover {
@@ -103,6 +105,7 @@ a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  font-size: 12px;
 }
 
 .footer-link {
