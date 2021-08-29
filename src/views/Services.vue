@@ -111,7 +111,6 @@ h2 {
 .logo-image {
   position: fixed;
   right: 0;
-  z-index: 1;
   -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
