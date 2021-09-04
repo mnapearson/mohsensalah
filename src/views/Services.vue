@@ -18,6 +18,9 @@
         </div>
       </div>
       <div class="service-two">
+        <div class="service-two-image">
+          <img src="../assets/servicetwo.png" alt="" />
+        </div>
         <div class="service-two-text">
           <h2>service two</h2>
           <h1>
@@ -25,9 +28,6 @@
             minus delectus! Recusandae deleniti nulla, et dolores eaque magnam
             repellat odio.
           </h1>
-        </div>
-        <div class="service-two-image">
-          <img src="../assets/servicetwo.png" alt="" />
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
   display: flex;
   position: fixed;
   flex-direction: column;
-  margin-left: 4rem;
+  margin-left: 10rem;
   justify-content: center;
   width: 100%;
   height: 100%;
@@ -144,5 +144,56 @@ h2 {
   height: 100vh;
   filter: blur(5px);
   -webkit-filter: blur(5px);
+}
+
+@media only screen and (max-width: 800px) {
+  .services {
+    margin-left: 3rem;
+  }
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  h2 {
+    font-family: "Fjalla One", sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+  }
+
+  .logo-image img {
+    height: 50vh;
+  }
+
+  .logo-image {
+    position: fixed;
+    top: 50%;
+  }
+
+  .service-one img {
+    height: 200px;
+  }
+
+  .service-one,
+  .service-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-one-text,
+  .service-two-text {
+    margin: 0;
+    width: 200px;
+  }
+
+  .service-one-image,
+  .service-two-image {
+    margin-bottom: 1rem;
+  }
+
+  .service-two img {
+    height: 150px;
+  }
 }
 </style>

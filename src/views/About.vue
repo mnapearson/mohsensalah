@@ -82,7 +82,7 @@
   width: 100%;
   height: 100%;
   align-items: center;
-  margin-left: 4rem;
+  margin-left: 10rem;
 }
 
 @-webkit-keyframes fade-in {
@@ -103,7 +103,7 @@
 }
 
 .about-image img {
-  width: 500px;
+  width: 400px;
 }
 
 .about-text {
@@ -129,5 +129,51 @@ h2 {
   font-weight: bold;
   text-decoration: underline;
   font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .services {
+    margin-left: 3rem;
+  }
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  h2 {
+    font-family: "Fjalla One", sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+  }
+
+  .logo-image img {
+    height: 50vh;
+  }
+
+  .logo-image {
+    position: fixed;
+    top: 50%;
+    z-index: 2;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about-image {
+    margin-top: 1rem;
+  }
+
+  .about-image img {
+    width: 200px;
+  }
+
+  .about-text {
+    width: 250px;
+    margin-left: 0;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
 }
 </style>

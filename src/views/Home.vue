@@ -50,6 +50,7 @@ h2 {
 }
 
 .text {
+  margin-left: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -179,7 +180,7 @@ h1 {
 
 .logo {
   position: fixed;
-  top: 0;
+  bottom: 0;
   right: 0;
   -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 3s both;
   animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 3s both;
@@ -203,7 +204,19 @@ h1 {
 }
 
 .logo img {
-  height: 100vh;
+  height: 60vh;
   width: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .text {
+    margin-left: 3rem;
+    width: 55%;
+    font-size: 10px;
+  }
+
+  .logo {
+    display: none;
+  }
 }
 </style>

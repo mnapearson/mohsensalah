@@ -22,8 +22,8 @@
 
         <a href="paradisestudio.de"
           ><div class="copyright-text">
-            <p>copyright 2021</p>
-            <p>🌴 Paradise Studio</p>
+            <p>c. 2021</p>
+            <p>Paradise Studio</p>
           </div>
         </a>
       </div>
@@ -41,10 +41,13 @@
 
 #app {
   display: flex;
+  scroll-behavior: smooth;
 }
 
 #nav {
   display: flex;
+  position: fixed;
+  z-index: 1000;
   flex-direction: column;
   width: 125px;
   border-right: 1px solid lightgray;
@@ -126,5 +129,23 @@ a {
 .copyright-text {
   font-size: 10px;
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 375px) {
+  #nav {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  }
+
+  #nav img {
+    width: 100px;
+  }
 }
 </style>

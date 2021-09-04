@@ -17,7 +17,11 @@
 
             <input type="email" name="user_email" placeholder="email" />
 
-            <textarea name="message" placeholder="message"></textarea>
+            <textarea
+              name="message"
+              placeholder="message"
+              type="message"
+            ></textarea>
             <input type="submit" value="Send" />
           </form>
           <p v-if="successMessage">
@@ -77,7 +81,7 @@ export default {
   display: flex;
   position: fixed;
   flex-direction: column;
-  margin-left: 4rem;
+  margin-left: 10rem;
   justify-content: center;
   width: 100%;
   height: 100%;
@@ -134,6 +138,10 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+textarea {
+  height: 200px;
+}
+
 input[type="submit"]:hover {
   background: black;
   color: white;
@@ -183,5 +191,39 @@ input[type="submit"]:hover {
   height: 100vh;
   filter: blur(5px);
   -webkit-filter: blur(5px);
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  h2 {
+    font-family: "Fjalla One", sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+  }
+
+  .logo-image img {
+    height: 50vh;
+  }
+
+  .logo-image {
+    position: fixed;
+    top: 50%;
+    z-index: 2;
+  }
+
+  .contact-form {
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+    width: 250px;
+  }
+
+  .contact {
+    margin-left: 8rem;
+  }
 }
 </style>
